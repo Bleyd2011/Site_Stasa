@@ -1,0 +1,8 @@
+@import "../plugins/normilize/css/normilize.css";
+@import "parts/_classes.css";
+@import "parts/_header.css";
+@import "parts/_footer.css";
+
+.content {
+    min-height: 80vh;
+}

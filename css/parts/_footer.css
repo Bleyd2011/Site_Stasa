@@ -1,0 +1,13 @@
+.footer-main {
+    width: 100%;
+    padding: 15px 0;
+    border-top: solid 1px #51545b;
+}
+
+.footer-main span {
+    display: block; /*  Делаю строчный элемент span - блочным и теперь я могу его на всю ширину сделать для выравнивания текста по центру */
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}

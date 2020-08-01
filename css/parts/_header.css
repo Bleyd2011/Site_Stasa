@@ -1,0 +1,49 @@
+/*  Главнаый Header */
+.header-main {
+    display: inline-block;
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: solid 1px #51545b;
+}
+
+/*  Логотип    */
+.header-main .header-main__logo {
+    position: relative;
+    display: inline-block;
+    float: left;
+    padding-right: 15px;
+}
+
+/*  Псевдоэлемент ::after   */
+.header-main .header-main__logo::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: black;
+}
+
+.header-main .header-main__logo img {
+    max-width: 200px;
+}
+
+/*  Навигация   */
+.header-main .header-main__nav {
+    display: inline-block;
+    margin-left: 15px;
+    padding: 15px 0;
+    float: left;
+}
+.header-main .header-main__nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.header-main .header-main__nav ul li {
+    display: inline-block;
+}
+.header-main .header-main__nav ul li:not(:last-child) { /*  Отступ справа у всех элементов списка, кроме последнего */
+    margin-right: 15px;
+}
