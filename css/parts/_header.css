@@ -47,3 +47,6 @@
 .header-main .header-main__nav ul li:not(:last-child) { /*  Отступ справа у всех элементов списка, кроме последнего */
     margin-right: 15px;
 }
+.header-main .header-main__nav li a.active {
+    color:red;
+}
